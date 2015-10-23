@@ -1,0 +1,37 @@
+{
+  "name": "webuddhainc/lessmonitor",
+  "description": "PHP Less Change Compiler",
+  "keywords": [
+    "php",
+    "parameters",
+    "less",
+    "css"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Hunt"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/webuddhainc/params"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/oyejorge/less.php"
+    }
+  ],
+  "require": {
+    "webuddhainc/params": ">=0.0.0",
+    "oyejorge/less.php": ">=1.7.0.9"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "files": [
+      "src/LessMonitor.php"
+    ]
+  }
+}
