@@ -24,8 +24,8 @@
     }
   ],
   "require": {
-    "webuddhainc/params": ">=0.0.0",
-    "oyejorge/less.php": ">=1.7.0.9"
+    "webuddhainc/params": "~0.0.0",
+    "oyejorge/less.php": "~1.7.0.9"
   },
   "require-dev": {
   },
